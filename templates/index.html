@@ -3,6 +3,7 @@
 {% block content %}
 <div>
     {% for datas in data %}
+    <a href= {{datas['source']}} </a>
     <span>{{ datas['source'] }}</span>
     <p>{{ data['inline_images']}}</p>
     {% endfor %}
